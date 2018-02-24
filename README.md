@@ -1,4 +1,9 @@
 # strip_comment
+
+**Author**: Shengkui Leng
+
+**E-mail**: lengshengkui@outlook.com
+
 A demo program to read configuration file and strip all comment strings satrted
 with a '#' (or other char).
 
