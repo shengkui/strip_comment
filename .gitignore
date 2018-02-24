@@ -1,0 +1,28 @@
+# Executables
+*.out
+
+# Object files
+*.o
+
+# Prerequisites
+*.d
+
+# Backup file
+*~
+
+# Kernel Module Compile Results
+*.ko
+*.mod.*
+.*.cmd
+modules.order
+Module.symvers
+.tmp_versions/
+
+# Tag file
+GPATH
+GRTAGS
+GTAGS
+tags
+
+# Editor
+.vscode/
