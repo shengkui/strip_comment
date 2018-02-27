@@ -17,14 +17,14 @@
 
 int main(int argc, char *argv[])
 {
-    char *json_file = "test.conf";
+    char *cfg_file = "test.conf";
     if (argc == 2) {
-        json_file = argv[1];
+        cfg_file = argv[1];
     }
 
     /* Read config file and remove comment string */
     char *buf = NULL;
-    size_t bytes = read_config_file(json_file, &buf, '#');
+    size_t bytes = read_config_file(cfg_file, &buf, '#');
     if (!bytes) {
         printf("read config file error, or no data in file\n");
         return -1;
